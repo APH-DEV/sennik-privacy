@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sennik — Pomoc / Support</title>
+  <style>
+    :root {
+      --bg: #14122e; --bg2: #4e2d6e; --fg: #f5e8c8; --muted: #b8a8d8;
+      --card: rgba(255,255,255,0.06); --link: #d6b8ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; line-height: 1.6; color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg, var(--bg) 0%, var(--bg2) 100%);
+      padding: 48px 20px 80px;
+    }
+    main {
+      max-width: 720px; margin: 0 auto; background: var(--card);
+      backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px; padding: 40px;
+    }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    h2 { font-size: 20px; margin: 32px 0 12px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 8px; }
+    .lang-switch { margin: 0 0 24px; font-size: 14px; }
+    .lang-switch a { color: var(--link); text-decoration: none; margin-right: 12px; }
+    .meta { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+    a { color: var(--link); }
+    .key { background: rgba(255,255,255,0.08); border-radius: 8px; padding: 14px 18px; margin: 20px 0; border-left: 3px solid var(--link); }
+    .contact { font-size: 18px; font-weight: 600; }
+    @media (prefers-color-scheme: light) {
+      :root { --bg: #f4ecff; --bg2: #ddd0f0; --fg: #2a1f4a; --muted: #5a4a7a; --card: rgba(255,255,255,0.7); --link: #5e3aa8; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <div class="lang-switch"><a href="#pl">Polski</a> · <a href="#en">English</a></div>
+
+  <section id="pl">
+    <h1>Sennik — Pomoc</h1>
+    <p class="meta">Słownik snów · wsparcie użytkownika</p>
+
+    <div class="key">
+      Masz pytanie, sugestię albo znalazłeś błąd? Napisz do nas — odpowiadamy
+      zwykle w ciągu kilku dni roboczych.
+    </div>
+
+    <p class="contact">📧 <a href="mailto:aphbook.pl@gmail.com">aphbook.pl@gmail.com</a></p>
+
+    <h2>Najczęstsze pytania</h2>
+    <p><strong>Czy aplikacja działa offline?</strong><br>
+    Tak. Sennik działa w pełni bez internetu — wszystkie hasła są wbudowane w aplikację.</p>
+
+    <p><strong>Gdzie przechowywane są moje dane?</strong><br>
+    Wyłącznie na Twoim urządzeniu. Nie mamy kont, serwerów ani analityki.
+    Ulubione, historia i dziennik snów nigdy nie opuszczają telefonu.</p>
+
+    <p><strong>Jak działa „Analiza snu"?</strong><br>
+    Wpisujesz opis snu, a aplikacja wyszukuje w nim znane symbole i pokazuje
+    ich interpretacje. Wszystko liczone lokalnie, nic nie jest wysyłane.</p>
+
+    <p><strong>Jak usunąć swoje dane?</strong><br>
+    Odinstaluj aplikację albo wyczyść jej dane w ustawieniach systemowych —
+    to usuwa wszystko bezpowrotnie.</p>
+
+    <h2>Prywatność</h2>
+    <p>Pełna polityka prywatności: <a href="../">aph-dev.github.io/sennik-privacy</a></p>
+  </section>
+
+  <section id="en" style="margin-top:64px">
+    <h1>Sennik — Support</h1>
+    <p class="meta">Dream dictionary · user support</p>
+
+    <div class="key">
+      Have a question, suggestion, or found a bug? Email us — we usually reply
+      within a few business days.
+    </div>
+
+    <p class="contact">📧 <a href="mailto:aphbook.pl@gmail.com">aphbook.pl@gmail.com</a></p>
+
+    <h2>FAQ</h2>
+    <p><strong>Does the app work offline?</strong><br>
+    Yes. Sennik works fully offline — all entries are bundled into the app.</p>
+
+    <p><strong>Where is my data stored?</strong><br>
+    Only on your device. No accounts, no servers, no analytics. Favorites,
+    history and the dream journal never leave your phone.</p>
+
+    <p><strong>How does "Analyse dream" work?</strong><br>
+    You type a description of your dream and the app detects known symbols in
+    it and shows their meanings. Everything is computed locally.</p>
+
+    <p><strong>How do I delete my data?</strong><br>
+    Uninstall the app or clear its data in system settings — that removes
+    everything permanently.</p>
+
+    <h2>Privacy</h2>
+    <p>Full privacy policy: <a href="../">aph-dev.github.io/sennik-privacy</a></p>
+  </section>
+</main>
+</body>
+</html>
